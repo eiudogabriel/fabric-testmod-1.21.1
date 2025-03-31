@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item GOLDEN_GOLD = registerItem("golden_gold", new Item(new Item.Settings()));
+    public static final Item RAW_GOLDEN_GOLD = registerItem("raw_golden_gold", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -21,6 +22,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(GOLDEN_GOLD);
+            entries.add(RAW_GOLDEN_GOLD);
         });
     }
 }
