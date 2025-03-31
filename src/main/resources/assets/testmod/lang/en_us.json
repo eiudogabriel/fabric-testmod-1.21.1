@@ -1,4 +1,7 @@
 {
   "item.testmod.golden_gold": "Golden Gold",
-  "item.testmod.raw_golden_gold": "Raw Golden Gold"
+  "item.testmod.raw_golden_gold": "Raw Golden Gold",
+
+  "block.testmod.golden_gold_block": "Block of Golden Gold",
+  "block.testmod.raw_golden_gold_block": "Block of Raw Golden Gold"
 }
