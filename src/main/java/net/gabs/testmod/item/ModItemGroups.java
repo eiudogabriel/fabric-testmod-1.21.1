@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.GOLDEN_GOLD);
                         entries.add(ModItems.RAW_GOLDEN_GOLD);
+
                     }).build());
     public static final ItemGroup GOLDEN_GOLD_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TestMod.MOD_ID, "golden_gold_blocks"),
@@ -26,6 +27,10 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.GOLDEN_GOLD_BLOCK);
                         entries.add(ModBlocks.RAW_GOLDEN_GOLD_BLOCK);
+
+                        entries.add(ModBlocks.GOLDEN_GOLD_ORE);
+                        entries.add(ModBlocks.GOLDEN_GOLD_DEEPSLATE_ORE);
+
                     }).build());
 
 

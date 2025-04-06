@@ -5,6 +5,10 @@
   "block.testmod.golden_gold_block": "Block of Golden Gold",
   "block.testmod.raw_golden_gold_block": "Block of Raw Golden Gold",
 
+  "block.testmod.golden_gold_ore": "Golden Gold Ore",
+  "block.testmod.golden_gold_deepslate_ore": "Golden Gold Deepslate Ore",
+
   "itemgroup.testmod.golden_gold_items": "Golden Gold Items",
   "itemgroup.testmod.golden_gold_blocks": "Golden Gold Blocks"
+
 }

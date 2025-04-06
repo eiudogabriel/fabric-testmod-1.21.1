@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:golden_gold_block",
+    "testmod:raw_golden_gold_block",
+    "testmod:golden_gold_ore",
+  ]
+}
