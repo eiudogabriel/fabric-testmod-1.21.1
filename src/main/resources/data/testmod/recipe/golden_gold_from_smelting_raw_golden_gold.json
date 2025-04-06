@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "group": "golden_gold",
+  "category": "misc",
+  "ingredient": {
+    "item": "testmod:raw_golden_gold"
+  },
+  "result": {
+    "id": "testmod:golden_gold"
+  },
+  "cookingtime": 200
+}
